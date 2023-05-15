@@ -1,0 +1,24 @@
+Each of the following is a typical function of a folder in a Laravel project:
+
+1. app: The "app" folder stores the primary program files. Data models for an application can be described in the "Models" directory, while controllers, middleware, and requests for processing HTTP requests and responses can be found in the "Http" directory.
+
+2. bootstrap: Laravel's "bootstrap" folder contains the files needed to run the application for the first time. Application environments and service providers are configured in a file called "app.php" in this package.
+
+3.Config: The config folder is where your Laravel application's configuration files live. You may configure your application's database connections, email accounts, cache sizes, and more with these files.
+
+4.Database: The database folder is where all database-related files should be stored. You can construct seed classes to populate the database with test data and manage database migrations under the corresponding "migrations" and "seeds" directories.
+
+5: Public: Laravel applications often have their "index.php" files located in the "public" folder, which is the web server's document root. CSS, JavaScript, and image files are also included for added convenience.
+
+6. Resources: The non-PHP files for your app should be placed in the "resources" folder. Views, language files, assets like CSS and JavaScript, and raw files that need to be compiled or processed are all stored in their own respective folders.
+
+7. Routes: The routes directory is where your program stores its route information. It includes the "web.php" file for handling HTTP requests and the "api.php" file for creating RESTful APIs, both of which are used to define the paths taken by the API.
+
+8. Storage: The "storage" folder is where an app keeps its temporary and cached files. Logs, framework cache, sessions, and uploaded files are all stored in their respective app-specific folders.
+
+9. Testing: The "tests" folder is where you may create your application's standard tests in Laravel. You can test many aspects of your app's functionality thanks to its dedicated test folders. These include unit tests, feature tests, and browser tests.
+
+10.Vendor: Laravel's mechanism for managing dependencies, Composer, creates and maintains the "vendor" subdirectory. It includes any required autoload files, as well as all required third-party libraries and packages.
+
+Each of these files has a unique purpose in a Laravel project. We can use them to set up a systematized system for managing your service's source code, configurations, assets, and other resources. 
+

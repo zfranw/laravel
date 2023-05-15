@@ -1,0 +1,33 @@
+To install Laravel, I followed these steps:
+
+    First i Install PHP: Laravel requires PHP to be installed on my system. I have ensured this by following command in MS Dos:
+
+php -v
+
+After that i Install Composer. Composer is a dependency management tool used by Laravel. It manages the installation of Laravel and its dependencies. To install Composer, I followed the official installation instructions provided on the Composer website (https://getcomposer.org/).Install the Laravel Installer globally by running the following Composer command:
+
+composer global require laravel/installer
+
+Verification of Installation: After installing the Laravel Installer, i have verify that it's installed correctly by running the following command:
+
+laravel --version
+
+Aftter all this step i have created a New Laravel Project by running the following command:
+
+
+laravel new project-name
+
+I also Replaced project-name with the desired name for my project.
+
+Serve the Application in Server: for this i have used following command
+
+
+cd project-name
+
+To start a development server and run my Laravel application, use the following command:
+
+    php artisan serve
+
+    This will start a local development server, and you can access your Laravel application by visiting http://localhost:8000 in my server web browser.
+
+That's how i have installed laravel in my computer
